@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de Português - CONTO</title>
+    <!-- Aluna: Nicoly de Oliveira Cruz, Turma: 148-->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fafafa;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        header {
+            background-color: #b79fd8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            min-height: 70vh;
+        }
+
+        .borda-conto {
+            background: #fff;
+            border: 2px solid #b79fd8;
+            border-radius: 16px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.18), 0 1.5px 6px rgba(74,144,226,0.12);
+            padding: 32px 24px;
+            max-width: 800px;
+            margin: 40px auto;
+            font-size: 1.25em;
+        }
+
+        .borda-conto h2 {
+            margin-top: 0;
+            text-align: center;
+            color: #b79fd8;
+        }
+
+        .btn-modo {
+            display: block;
+            margin: 0 auto 24px auto;
+            padding: 10px 24px;
+            background: #b79fd8;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-modo:hover {
+            background: #b79fd8;
+        }
+
+        footer {
+            background-color: #b79fd8;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+       
+        @media (max-width: 600px) {
+            .borda-conto {
+                padding: 16px 8px;
+                margin: 16px 4px;
+                max-width: 98vw;
+            }
+            main {
+                padding: 8px;
+            }
+            header, footer {
+                padding: 10px;
+                font-size: 1em;
+            }
+            .btn-modo {
+                width: 100%;
+                font-size: 1em;
+            }
+        }
+
+        
+        body.leitura {
+            background: #f5ecd7;
+            color: #222;
+        }
+        body.leitura .borda-conto {
+            background: #fffbe6;
+            color: #222;
+            border-color: #b79fd8;
+            font-size: 1.25em;
+            line-height: 2;
+            letter-spacing: 0.5px;
+        }
+        body.leitura header,
+        body.leitura footer {
+            background-color: #b79fd8;
+        }
+        body.leitura .btn-modo {
+            background: #b79fd8;
+        }
+        body.leitura .borda-conto h2 {
+            color: #b79fd8;
+        }
+
+        nav {
+    margin-top: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nav-btn {
+    display: inline-block;
+    background: #b79fd8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 1.2em;
+    margin: 0 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.nav-btn:hover {
+    background: #b79fd8;
+    color: #fff;
+}
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CONTO (baseado no livro "Hibisco Roxo - Chimamanda Ngozi Adichie")</h1>
+<nav>
+    <a href="slam.html" class="nav-btn">Slam</a>
+    <a href="conto.html" class="nav-btn">Conto</a>
+    <a href="reportagem.html" class="nav-btn">Reportagem</a>
+</nav>
+</header>
+
+<main>
+    <button class="btn-modo" onclick="alternarModoLeitura()">Alternar modo claro/leitura</button>
+    <div class="borda-conto">
+        <h2>O Hamantra Sangrento</h2>
+        <p>
+            Durante a refeição em Abba<br>
+            <br>
+            Quando todos terminaram de comer e estavam prestes a descer, eles escutam gritos vindo do andar de baixo e quando eles descem se deparam com uma multidão reunida na porta de um cômodo e nele vêem uma poça de sangue e no centro dela o cadáver de Iguie<br>
+            -Eugene: Por que todo esse alvoroço? O que está acontecendo aqui!?<br>
+            A voz de Eugene ecoa por todo o local e logo se abre um caminho para sua passagem, assim que ele entra na sala vê o tapete manchado de sangue e o corpo de Iguie com o pescoço degolado de onde escorre o sangue. Além disso, no fundo da sala vê uma janela estilhaçada com uma cadeira jogada ao lado.<br>
+            -Eugene: Mas que merda aconteceu aqui!? Chamem a polícia!<br>
+            -Beatrice: Acho melhor subirmos.<br>
+            -Kevin: Senhor estamos sem sinal <br>
+            -Eugene: Que! Mas como? Estão olhando o que? O jantar acabou!<br>
+            Quando todos estavam indo embora vêem uma pessoa caindo no chão, com uma flecha atravessando seu crânio e no mesmo instante a multidão entra em desespero <br>
+            <br>
+            Enquanto isso no segundo andar <br>
+            <br>
+            -Obiorra: Mas o que está acontecendo?  Por que todo esse alarde?<br>
+            -Ifeoma: Assunto de adulto! Vão para os quartos!<br>
+            Jaja, Obiorra e Chima vão pro quarto de Jaja, enquanto Kambili e Amaka vão para o quarto da primeira<br>
+            -Beatrice: Ifeoma vem ver isso aqui!<br>
+            Ifeoma se aproxima de Beatrice indo em até um quarto, onde vê uma grande janela de vidro estilhaçada<br>
+            -Ifeoma: Vá avisar o Eugene! Eu vou ver como estão as crianças<br>
+            No quarto de Kambili o silêncio é palpável com elas pensando no que aconteceu e quando Amaka iria falar a porta se abre e diante delas surge uma figura encapuzada com um facão<br>
+            -Amaka: O que está aconte…<br>
+            A figura avança na direção de Amaka, derrubando ela e tentando esfaqueala, mas ela consegue desviar e segurar a mão da figura, enquanto Kambili olha, paralisada de medo, sem conseguir agir ou falar uma palavra<br>
+            Quando a figura finalmente consegue encostar o facão no pescoço da garota, uma pessoa golpeia a cabeça do encapuzado o derrubando<br>
+            -Ifeoma: Vocês estão bem?<br>
+            Se passa alguns segundos até que elas se recomponham e respondam, nisso a figura se levanta, mas desta vez, com o seu capuz caído<br>
+            -Kambili: Por que!?<br>
+            De baixo do capuz se revela o rosto de sunday que avança na direção de Kambili e golpeando seu braço<br>
+            -Sunday: Eugene provocou quem não deveria e por causa disso agora vocês vão pagar o preço<br>
+            -Ifeoma: Cala a boca seu idiota!<br>
+            Ifeoma avança e tenta bater nele novamente com o castiçal, porém desta vez ele consegue desviar<br>
+            -Ifeoma: Meninas saiam daqui!<br>
+            -Amaka: Mas e a senhora?<br>
+            -Ifeoma: Sem mas!<br>
+            Amaka e Kambili com relutância, saem do quarto<br>
+<br>
+            De Volta para o 1° andar<br>
+<br>
+            -Eugene: que merda é um arq…<br>
+            No meio da multidão desesperada Eugene é acertado em seu braço esquerdo por uma flecha<br>
+            -Kevin: Vamos voltar pra dentro, aqui é muito perigoso<br>
+            A multidão desesperada se dispersa restando apenas corpos e sangue<br>
+            -beatrice: Eugene você está bem?<br>
+            -Eugene: Tem um arqueiro lá fora, ele conseguiu me acertar.<br>
+            Quando ele termina de falar o arqueiro surge segurando uma flecha e tenta cravá la no pescoço de Beatrice, mas Eugene consegue tirá-la do caminho <br>
+            -Eugene: Beatrice tenha cuidado!<br>
+            -Arqueiro: Você até que é rápido para um brutamontes<br>
+            Eugene tenta acerta lo, entretanto o desconhecido facilmente esquiva e contra ataca cravando um flecha no peito do Eugene que cai morto no chão<br>
+            -Beatrice: Não!!!<br>
+<br>
+            No andar de cima<br>
+<br>
+            -Sunday: Olha como você fala!<br>
+            Sunday avança na direção da Ifeoma e tenta golpeá la no torso, porém ela consegue desviar dando um passo para trás e se aproximando novamente para contratá lo na cabeça, entretanto ele consegue bloquear com seu braço<br>
+            -Sunday: Desgraçada!<br>
+            -Ifeoma: Olha quem fala<br>
+            Ifeoma avança novamente, desta vez tentando acertá lo no ombro e conseguiu, embora de raspão, porém ele contra ataca e perfura o abdômen dela<br>
+            -Ifeoma: Merda!<br>
+            -Sunday: Últimas palavras?<br>
+            Ifeoma cai de joelhos sangrando e quando Sunday estava prestes a dar o último golpe ele gospel sangue e caí no chão, com uma faca fincada no seu coração e atrás dele estavam as crianças <br>
+            -Ifeoma: Crianças!?<br>
+<br>
+            De Volta ao primeiro andar<br>
+<br>
+            -Beatrice: Eugene! Não!!<br>
+            -Arqueiro: agora é a sua vez <br>
+            O desconhecido pega outra flecha e a aponta para Beatrice que está ajoelhada ao lado do corpo de Eugene e quando ia atacá la, ele vai para o lado desviando de uma facada vindo por trás <br>
+            -Arqueiro: Você até que é bom, mas é muito barulhento <br>
+            -Kevin: Cala a boca!<br>
+            -Arqueiro: Desculpa, estressadinho <br>
+            Kevin avança para cima dele tentando acertá lo, mas ele facilmente se esquiva de todos os golpes e acerta a flecha no pulmão dele o derrubando <br>
+            -Arqueiro: Nem teve graça, últimas palavras…<br>
+            Beatrice atinge ele no tórax,com a flecha, porém ele ainda fica de pé e corta a barriga dela <br>
+            -Arqueiro: Desgraçada <br>
+            -Kevin: olha aqui seu desgraçado!<br>
+            Kevin se levanta e crava a faca o pescoço dele<br>
+<br>
+            3 Dias depois <br>
+            Em uma sala médica <br>
+<br>
+            -Repórter: O incidente em Abba ainda está sendo investigado, o governo diz que foi um ataque terrorista, embora tenha pessoas que achem que foi um ataque do governo para matar Eugene, antigo dono do jornal Stannard<br>
+            -Beatrice: Agora os jornais só falam sobre isso <br>
+            -Ifeoma: Mas, e agora, o que pretende fazer já que Eugene está morto?<br>
+            -Beatrice: Ainda não sei <br>
+        </p>
+    </div>
+</main>
+
+<footer>
+    <p></p>
+</footer>
+
+<script>
+function alternarModoLeitura() {
+    document.body.classList.toggle('leitura');
+}
+</script>
+</body>
+</html>
